@@ -9,25 +9,25 @@
     font-weight: 600;
 }
 
-.fields {
+.form-container .fields {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     align-items: baseline;
 }
 
-.input-field {
+.form-container .input-field {
     display: flex;
     flex-direction: column;
     margin: 10px 10px 10px 0;
 }
-.input-field label{    
+.form-container .input-field label{    
     font-size: 12px;
     font-weight: 500;
     color: #2e2e2e;
 }
 
-.input-field input, select{
+.form-container .input-field input, select{
     width: 250px;
     outline: none;
     font-size: 12px;
@@ -39,12 +39,8 @@
     height: 42px;
     margin: 8px 0;
 }
-.input-field input :focus,
-.input-field select:focus{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
-}
 
-button {
+.form-container button {
     background-color: black;
     color: whitesmoke;
     border-radius: 5px;
@@ -58,6 +54,7 @@ button {
     margin: 0 auto;
 }
 
-button:hover {
+.form-container button:hover {
     background-color: rgb(0, 68, 128);
 }
+
